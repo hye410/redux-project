@@ -1,0 +1,43 @@
+.hide{
+  width : 0; height: 0;
+  font-size: 0; line-height: 0;
+  position : absolute; visibility: hidden;
+}
+
+header{
+  padding : 20px 0 ;
+  background-color: #d5c1c1;
+  display: flex;
+  justify-content: center;
+  position : relative;
+  margin-bottom : 20px;
+  /* position: fixed; */
+  width: 100%;
+  z-index: 1000;
+}
+
+nav{
+  color : #5f0080;
+  position : absolute;
+  top: calc(50% - 0.5em);
+  right : 35px;
+  font-size: 18px;
+}
+
+nav>a{
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+}
+
+nav>a>span{
+  padding : 0 3px;
+  color : rgb(75, 29, 75);
+}
+
+
+
+
+
+
+

@@ -1,0 +1,9 @@
+#root{
+  padding-top : 100px;
+  width : 1000px;
+  margin : 0 auto;
+  /* background-color: skyblue; */
+  display: flex;
+  justify-content: flex-end;
+  position:relative;
+}

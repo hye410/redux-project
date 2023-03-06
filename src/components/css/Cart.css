@@ -1,0 +1,146 @@
+
+#cart{
+  padding : 0 10px;
+}
+
+.removeall{
+  margin-bottom : 10px;
+  font-size: 12px;
+  text-align: end;
+  cursor: pointer;
+}
+
+.mylist{
+  border : 2px solid rgb(216, 213, 213);
+  padding : 10px 5px 0 5px;
+  margin-bottom: 20px;
+}
+
+.mylist>li{
+  border-bottom : 1px solid rgb(216, 213, 213);
+  margin-bottom : 10px;
+}
+
+.mylist>li:last-child{
+  border : none;
+  margin-bottom : 0;
+}
+
+
+.mylist>li>ul{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* width : 70%; */
+  /* position:relative; */
+  /* background-color: red; */
+  margin-bottom : 10px;
+  padding : 0 10px;
+}
+.mylist>li>ul>li{
+  font-size: 15px;
+}
+.mylist>li>ul>li:last-child{
+  /* position:absolute;
+  right :3%;
+  top:1px; */
+  cursor: pointer;
+  margin-right: 5px;
+  padding-top : 2px;
+}
+
+.mylist>li>figure{
+  display: flex;
+  margin-bottom : 10px ;
+}
+
+.mylist>li>figure>img{
+  width : 66px;
+  height: 86px;
+  padding : 0 25px 0px 10px; 
+}
+
+.mylist figcaption{
+  padding : 5px 0;
+  /* background-color: antiquewhite; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.mylist figcaption p:first-child{
+  font-weight: bold;  
+}
+
+.mylist figcaption p:nth-child(2){
+  border : 1px solid rgb(199, 199, 199);
+  padding : 4px;
+  border-radius: 5px 5px;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  font-size: 14px;
+  width : 40px;
+}
+
+.mylist figcaption p:nth-child(2)>span{
+  padding : 0 3px;
+  cursor: pointer;
+}
+
+#cart>dl{
+  background-color: rgb(240, 242, 246);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width : 80%;
+  margin : 0 auto 15px;
+  padding : 15px; 
+  align-items: center;
+}
+
+#cart>dl>dt{
+  /* font-weight: bold; */
+  width : 50%;
+  margin-bottom : 10px;
+  font-size: 14px;
+}
+
+#cart>dl>dd{
+  font-weight: bold;
+}
+
+#cart>dl>dd:nth-child(5){
+  width : 100%;
+  text-align: right;
+  font-size : 14px;
+  font-weight: normal;
+  margin-bottom: 5px;
+}
+
+#cart>p.btn{
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+p.btn>button{
+  width : 90%;
+  padding : 5px 0;
+  background-color: rgb(172, 172, 172);
+  border : none;
+  color : #fff;
+  cursor: pointer;
+}
+
+.empty{
+  width : 100%;
+  background-color: rgb(245, 245, 242);
+  text-align: center;
+  padding : 50px 0;
+  margin-bottom : 25px;
+}
+.empty>svg{
+  font-size: 30px;
+  margin-bottom : 20px;
+}

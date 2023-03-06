@@ -1,0 +1,242 @@
+[
+  { 
+    "id" : 1,
+    "name" : "이스라엘산 스위티",
+    "imageUrl" : "./images/sweety.jpg",
+    "detail" : "지중해의 태양을 흠뻑 받고 자란 청자몽",
+    "price" : 2980,
+    "num" : 50,
+    "date" : 1675841671029,
+    "count" : 1
+  },
+  { 
+    "id" : 2,
+    "name" : "카라카라오렌지",
+    "imageUrl" : "./images/karakara.jpg",
+    "detail" :"자몽과 오렌지가 합쳐진 맛",
+    "price" : 12600,
+    "num" : 57,
+    "date" : 1675832671029,
+    "count" : 1
+  },
+  { 
+    "id" : 3,
+    "name" : "블랙라벨 고당도 오렌지",
+    "imageUrl" : "./images/orange.jpeg",
+    "detail" : "12브릭스 이상만 엄선한 상큼달달함",
+    "price" : 7990,
+    "num" : 150,
+    "date" :  1675832645029,
+    "count" : 1
+  },
+  { 
+    "id" : 4,
+    "name" : "알타킹 딸기",
+    "imageUrl" : "./images/strawberry.jpg",
+    "detail" :"복숭아 향이 나는 큰 딸기",
+    "price" : 14900,
+    "num" : 234,
+    "date" :  1675832644911,
+    "count" : 1
+  },
+  { 
+    "id" : 5,
+    "name" : "당도선별 천혜향",
+    "imageUrl" : "./images/cheonhyehyang.jpeg",
+    "detail" :"부드러운 과육이 품은 상큼함",
+    "price" : 8910,
+    "num" : 175,
+    "date" : 1675832545029,
+    "count" : 1
+  },
+  { 
+    "id" : 6,
+    "name" : "레드 송이 토마토",
+    "imageUrl" : "./images/tomato.jpg",
+    "detail" : "한 알 한 알 떼어먹는 재미",
+    "price" : 7980,
+    "num" : 210,
+    "date" : 1675834545029,
+    "count" : 1
+  },
+  { 
+    "id" : 7,
+    "name" : "그릭 골드키위",
+    "imageUrl" : "./images/kiwi.jpg",
+    "detail" : "큼직한 과육에 든 녹진한 달콤함",
+    "price" : 9500,
+    "num" : 121,
+    "date" : 1675832533329 ,
+    "count" : 1
+  },
+  { 
+    "id" : 8,
+    "name" : "저탄소 한라봉",
+    "imageUrl" : "./images/hanrabong.jpg",
+    "detail" :"탐스러운 제주의 맛",
+    "price" : 10900,
+    "num" : 57,
+    "date" : 1675832544129,
+    "count" : 1
+  },
+  { 
+    "id" : 9,
+    "name" : "왕사과",
+    "imageUrl" : "./images/apple.jpg",
+    "detail" : "남다른 크기를 자랑하는 사과",
+    "price" : 12900,
+    "num" : 242,
+    "date" : 1675835544129,
+    "count" : 1
+  },
+  { 
+    "id" : 10,
+    "name" : "칠레산 왕 생체리",
+    "imageUrl" : "./images/cherry.jpg",
+    "detail" : "굵직하게 차오른 붉은 다이아몬드",
+    "price" : 8900,
+    "num" : 190,
+    "date" : 1675832312129,
+    "count" : 1
+  },
+  { 
+    "id" : 11,
+    "name" : "칠레산 블루베리",
+    "imageUrl" : "./images/blueberry.jpg",
+    "detail" : "아삭하고 은은한 단맛이 일품인 베리류의 왕",
+    "price" : 8900,
+    "num" : 272,
+    "date" : 1675832544357 ,
+    "count" : 1
+  },
+  {
+    "id" :12,
+    "name" :"감숙왕 허니골드 파인애플" ,
+    "imageUrl" : "./images/pineapple.jpg",
+    "detail":"꿀처럼 진한 달콤함",
+    "price":4900,
+    "num":184,
+    "date":1675832314357,
+    "count" : 1
+  },
+  {
+    "id" :13,
+    "name" : "페루산 애플망고",
+    "imageUrl" : "./images/applemango.jpg",
+    "detail":"붉은 껍질 속 달콤한 노란색 유혹",
+    "price":9900,
+    "num":135,
+    "date":1675832678357,
+    "count" : 1
+  },
+  {
+    "id" :14,
+    "name" : "페루산 씨없는 적포도" ,
+    "imageUrl" : "./images/grape.jpg",
+    "detail":"껍질째 즐기는 아삭 달콤함",
+    "price":12800,
+    "num":248,
+    "date":1675832541257,
+    "count" : 1
+  },
+  {
+    "id" :15,
+    "name" :"제주레몬" ,
+    "imageUrl" : "./images/lemon.jpg",
+    "detail":"자연 빛깔을 그대로 품은 레몬",
+    "price":6940,
+    "num":57,
+    "date":1675832344357,
+    "count" : 1
+  },
+  {
+    "id" :16,
+    "name" : "샤인머스켓",
+    "imageUrl" : "./images/shinegrape.jpg",
+    "detail":"묵직하게 차오른 진한 달콤함",
+    "price":21800,
+    "num":271,
+    "date":1675832524757,
+    "count" : 1
+  },
+  {
+    "id" :17,
+    "name" : "창조배",
+    "imageUrl" : "./images/pear.jpg",
+    "detail":"아삭아삭 과즙이 풍부",
+    "price":11900,
+    "num":124,
+    "date":1675832512457,
+    "count" : 1
+  },
+  {
+    "id" :18,
+    "name" : "한방수 단감",
+    "imageUrl" : "./images/gam.jpg",
+    "detail":"큼직한 사이즈의 단감",
+    "price":8900,
+    "num":157,
+    "date":1675832575457,
+    "count" : 1
+  },
+  {
+    "id" :19,
+    "name" : "필리핀 카라바오 망고",
+    "imageUrl" : "./images/mango.jpg",
+    "detail":"새콤함이 도드라지는 이색망고",
+    "price":11950,
+    "num":183,
+    "date":1675832112357,
+    "count" : 1
+  },
+  {
+    "id" :20,
+    "name" : "감숙왕 바나나",
+    "imageUrl" : "./images/banana.jpg",
+    "detail":"엄선된 고산지 바나나",
+    "price":5400,
+    "num":312,
+    "date":1675832545784,
+    "count" : 1
+  },
+  {
+    "id" :21,
+    "name" : "베트남 용과",
+    "imageUrl" : "./images/dragonfruite.jpg",
+    "detail":"맛과 멋을 뽐내는 과일",
+    "price":10900,
+    "num":37,
+    "date":1675832789357,
+    "count" : 1
+  },
+  {
+    "id" :22,
+    "name" : "실속 아보카도",
+    "imageUrl" : "./images/avocado.jpg",
+    "detail":"싱그러운 숲속의 버터",
+    "price":8184,
+    "num":164,
+    "date":1675832574657,
+    "count" : 1
+  },
+  {
+    "id" :23,
+    "name" : "만년설 딸기",
+    "imageUrl" : "./images/whitestrawberry.jpg",
+    "detail":"사랑스러운 빛깔의 달콤한 신품종딸기",
+    "price":18900,
+    "num":99,
+    "date":1675832547534,
+    "count" : 1
+  },
+  {
+    "id" :24,
+    "name" : "대추방울토마토",
+    "imageUrl" : "./images/smalltomato.jpg",
+    "detail":"작지만 달고 맛있는 토마토",
+    "price":5900,
+    "num":247,
+    "date":1675832589654,
+    "count" : 1
+  }
+]
