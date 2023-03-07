@@ -11,7 +11,7 @@ function Cart(){
   const { ListSlice } = useSelector(state=>state);
   const mycartList = productList.filter(item =>
     ListSlice.selectedIds.includes(item.id)) 
-  
+
   const sumPrice = mycartList.map((item) => item.price * item.count)
                               .reduce((sum,hap) =>  sum += hap,0);
   

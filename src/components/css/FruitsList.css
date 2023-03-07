@@ -15,12 +15,14 @@
 
 #fruitbox>div>button{
   height :20px;
-  width : 81px;
-  color : rebeccapurple;
+  width : 100px;
+  color : #fff;
+  background-color: #5f0080;
   display: flex;
   justify-content: center;
   align-items: center;
-  border : 1px solid #aaa;
+  border:none;
+  /* border : 1px solid #aaa; */
 }
 #fruitbox>div>ul{
   position : absolute;
@@ -29,11 +31,13 @@
   border : 1px solid #aaa;
   background-color: #fff;
   z-index: 100;
-  width : 81px;
+  width : 98px;
 }
 
 
-
+#fruitbox>div>ul>li>svg{
+  font-size: 12px;
+}
 #fruitbox>div>ul>li{
   padding : 5px;
   text-align: center;
@@ -42,6 +46,7 @@
   align-items: center;
   justify-content: center;
   width : 100%;
+  box-sizing: border-box;
 }
 #fruitbox>div>ul>li:first-child{
   border-top:none;

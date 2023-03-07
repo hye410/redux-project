@@ -6,7 +6,7 @@
 
 header{
   padding : 20px 0 ;
-  background-color: #d5c1c1;
+  background-color: #5f0080;
   display: flex;
   justify-content: center;
   position : relative;
@@ -28,11 +28,13 @@ nav>a{
   display: flex;
   align-items: center;
   font-weight: bold;
+  color:#fff;
+  text-decoration: none;
 }
 
 nav>a>span{
   padding : 0 3px;
-  color : rgb(75, 29, 75);
+  color:#fff;
 }
 
 

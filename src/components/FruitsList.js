@@ -18,7 +18,11 @@ function FruitsList({productList}){
   const[toggle,setToggle] = useState(false);
   const searchList = 
   productList.filter(item => item.name.includes(productName))
-             .sort((a,b) => b[sort] - a[sort]) ;
+             .sort((a,b) => {
+              return(
+                sort === 'price2' ? a[sort] - b[sort] : b[sort] - a[sort]
+                )
+              });
 
 
   return(
@@ -44,7 +48,10 @@ function FruitsList({productList}){
             {sort === 'num' && <BsCheck />}판매량순
           </li>
           <li value='price' onClick={()=>setSort('price')}>
-            {sort === 'price' && <BsCheck />}가격순
+            {sort === 'price' && <BsCheck />}높은 가격순
+          </li>
+          <li value='price' onClick={()=>setSort('price2')}>
+            {sort === 'price2' && <BsCheck />}낮은 가격순
           </li>
         </ul>
       }
