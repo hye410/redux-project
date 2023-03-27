@@ -49,7 +49,7 @@ function Cart(){
                   {product.count}
                   <span
                   // onClick={(event)=>{return(
-                  //   console.log(product.count+=1))}}}
+                  //   console.log(product.count+=1))}}} 
                   // onClick={()=>{product.count+=1}}
                   //위에처럼 하면 안되는데 아래처럼 하면 됨..
                   // redux에서 state.target값이 굳이 쓰이는게 없는 거 같은데..
