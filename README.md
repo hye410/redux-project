@@ -1,25 +1,43 @@
-# SiteOverview
+# Redux Project
 
-## 개발범위
- - Redux-project
+<p align="center">
+<img
+src="./public/images/redux-main.png"
+width="400px"
+height="auto"
+/>
+</p>
 
-## 디바이스
-- Mobile
+## About This Project
+  Redux를 사용하여 만든 페이지입니다.<br>
+  상품을 장바구니에 추가할 수 있고 원하는 상품을 검색창에 입력하여 찾아볼 수도 있습니다.<br>
+  장바구니에서는 추가된 상품을 삭제할 수 있으며 상품 수량도 선택할 수 있습니다.<br>
 
-## 개발언어
-- HTML5
-- CSS3
-- JavaScript
+  ## Stacks
+  <img 
+  src="./public/images/html5-icon.png"
+  width="40px"
+  />
+  <img 
+  src="./public/images/css3-icon.png"
+  width="40px"
+  />
+  <img 
+  src="./public/images/javascript-icon.png"
+  width="40px"
+  />
+    <img 
+  src="./public/images/react-icon.png"
+  width="40px"
+  />
+    <img 
+  src="./public/images/redux-icon.png"
+  width="40px"
+  />
 
-## 배운점
-1. 높은 가격순, 낮은 가격순 정렬하기
-  - 가격순을 꼭 넣고 싶은데 값이 같은 것을 하나는 오름차순, 하나는 내림차순으로 어떻게 정리할 수 있을까 고민을 많이 하였다. 다행히 금방 해결하긴 하였는데 , json파일에 가격을 하나 더 추가하여 하나는 오름차순, 하나는 내림차순으로 문제를 해결하였다.
-
-  2. 장바구니에서 수량을 각각 조절하기
-
-  - useState를 사용하면, +,-를 onClick함에 따라 쉽게 수량을 조절할 수 있었지만 내가 선택한 상품뿐만 아니라 전체 상품의 수량이 변경되는 문제점이 발생하였다.
-  이 문제를 해결하는데 일주일의 시간이 걸렸는데
-  우선 json파일을 수정하여 각각 상품마다 기본 수량값을 주었다. map을 이용하기 때문에 각각의 수량값이 필요하다고 생각했기 때문이다.
-  그리고 useState를 이용해서 클릭하면 이벤트가 발생하되 useState의 값을 사용하지는 않았다.
-  사실 아직 문제가 풀린 정확한 원인을 설명하기는 어려운데 더 연구해봐야 할 것 같다.
-
+  ## Skill
+  <a
+  href="https://drive.google.com/file/d/1tIQqg1uia2jKuvV8fUXuGzBsxpXFmPdG/view?usp=share_link"
+  target="_blank">
+  기능 설명 보러 가기(Click)
+  </a>
