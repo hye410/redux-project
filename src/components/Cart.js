@@ -41,22 +41,16 @@ function Cart(){
                 <p>{product.price.toLocaleString('ko-KR')}원</p>
                 <p>                             
                   <span
-                  onClick={()=>{dispatch(
-                    changeCount(
-                      product.count > 1 ? product.count-=1 : 1))
-                      }}>   
-                  -</span>
+                  onClick={()=>{dispatch(changeCount(product.count > 1 ? product.count-=1 : 1))
+                  }}>   
+                   -
+                  </span>
                   {product.count}
                   <span
-                  // onClick={(event)=>{return(
-                  //   console.log(product.count+=1))}}} 
-                  // onClick={()=>{product.count+=1}}
-                  //위에처럼 하면 안되는데 아래처럼 하면 됨..
-                  // redux에서 state.target값이 굳이 쓰이는게 없는 거 같은데..
-                //  onClick={()=>{dispatch(changeCount(product.count+=1))}}
-                onClick={()=>{dispatch(changeCount(product.count+=1))
-              }}
-                 >+</span>
+                  onClick={()=>{dispatch(changeCount(product.count+=1))
+                  }}>
+                    +
+                  </span>
                 </p>            
               </figcaption>
             </figure>
