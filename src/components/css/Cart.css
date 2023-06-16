@@ -4,76 +4,69 @@
   height : calc(100vh - 220px);
 }
 
-.removeall{
+.removeAll{
   margin-bottom : 10px;
   font-size: 12px;
   text-align: end;
   cursor: pointer;
 }
 
-.mylist{
+.myList{
   border : 2px solid rgb(216, 213, 213);
   padding : 10px 5px 0 5px;
   margin-bottom: 20px;
 }
 
-.mylist>li{
+.myList>li{
   border-bottom : 1px solid rgb(216, 213, 213);
   margin-bottom : 10px;
 }
 
-.mylist>li:last-child{
+.myList>li:last-child{
   border : none;
   margin-bottom : 0;
 }
 
 
-.mylist>li>ul{
+.myList>li>ul{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* width : 70%; */
-  /* position:relative; */
-  /* background-color: red; */
   margin-bottom : 10px;
   padding : 0 10px;
 }
-.mylist>li>ul>li{
+.myList>li>ul>li{
   font-size: 15px;
 }
-.mylist>li>ul>li:last-child{
-  /* position:absolute;
-  right :3%;
-  top:1px; */
+.myList>li>ul>li:last-child{
   cursor: pointer;
   margin-right: 5px;
   padding-top : 2px;
 }
 
-.mylist>li>figure{
+.myList>li>figure{
   display: flex;
   margin-bottom : 10px ;
 }
 
-.mylist>li>figure>img{
+.myList>li>figure>img{
   width : 66px;
   height: 86px;
   padding : 0 25px 0px 10px; 
 }
 
-.mylist figcaption{
+.myList figcaption{
   padding : 5px 0;
-  /* background-color: antiquewhite; */
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 
-.mylist figcaption p:first-child{
+.myList figcaption p:first-child{
   font-weight: bold;  
 }
 
-.mylist figcaption p:nth-child(2){
+.myList figcaption p:nth-child(2){
   border : 1px solid rgb(199, 199, 199);
   padding : 4px;
   border-radius: 5px 5px;
@@ -85,7 +78,7 @@
   width : 40px;
 }
 
-.mylist figcaption p:nth-child(2)>span{
+.myList figcaption p:nth-child(2)>span{
   padding : 0 3px;
   cursor: pointer;
 }
@@ -102,7 +95,6 @@
 }
 
 #cart>dl>dt{
-  /* font-weight: bold; */
   width : 50%;
   margin-bottom : 10px;
   font-size: 14px;

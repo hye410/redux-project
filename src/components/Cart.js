@@ -9,11 +9,13 @@ import { RemoveFromCart,RemoveAllItems,changeCount } from '../redux/ListSlice';
 function Cart(){
   let dispatch = useDispatch();
   const { ListSlice } = useSelector(state=>state);
-  const mycartList = productList.filter(item =>
-    ListSlice.selectedIds.includes(item.id)) 
 
-  const sumPrice = mycartList.map((item) => item.price * item.count)
-                              .reduce((sum,hap) =>  sum += hap,0);
+  const myCartList = productList.filter(item =>
+    ListSlice.selectedIds.includes(item.id)
+  ) ;
+
+  const sumPrice = myCartList.map((item) => item.price * item.count)
+                             .reduce((sum,hap) =>  sum += hap,0);
   
   const priceDelivery = sumPrice >= 50000? 0 : 3000;
   
@@ -22,13 +24,13 @@ function Cart(){
     <article id="cart">
       <h3>장바구니</h3>
 
-      <p className="removeall"
+      <p className="removeAll"
         onClick={()=>{dispatch(RemoveAllItems())}}>장바구니 비우기
       </p>
 
-      <ul className="mylist">
+      <ul className="myList">
         {
-          mycartList.map((product) => {return(
+          myCartList.map((product) => {return(
           <li key={product.id}>
             <ul>
               <li>{product.name}</li>
