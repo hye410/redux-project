@@ -4,6 +4,7 @@ import productList from '../ItemList.json';
 import './css/Cart.css';
 import { useSelector,useDispatch } from "react-redux";
 import { RemoveFromCart,RemoveAllItems,changeCount } from '../redux/ListSlice';
+import { useState } from "react";
 
 
 function Cart(){
@@ -18,7 +19,7 @@ function Cart(){
                              .reduce((sum,hap) =>  sum += hap,0);
   
   const priceDelivery = sumPrice >= 50000? 0 : 3000;
-  
+  const [rendering,setRendering] = useState(0);
     
   return(
     <article id="cart">
@@ -43,14 +44,22 @@ function Cart(){
                 <p>{product.price.toLocaleString('ko-KR')}원</p>
                 <p>                             
                   <span
-                  onClick={()=>{dispatch(changeCount(product.count > 1 ? product.count-=1 : 1))
-                  }}>   
+                  onClick={
+                    ()=>{
+                      dispatch(changeCount(product.count > 1 ? product.count-=1 : 1));
+                      setRendering(rendering + 1);
+                    }
+                  }>   
                    -
                   </span>
                   {product.count}
                   <span
-                  onClick={()=>{dispatch(changeCount(product.count+=1))
-                  }}>
+                  onClick={
+                    ()=>{
+                      dispatch(changeCount(product.count+=1));
+                      setRendering(rendering - 1);
+                    }
+                  }>
                     +
                   </span>
                 </p>            
