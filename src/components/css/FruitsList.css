@@ -1,10 +1,10 @@
 
-#fruitbox{
+#fruitBox{
   width: 100%;
   /* background-color: yellowgreen; */
 }
 
-#fruitbox>div{
+#fruitBox>div{
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -13,7 +13,7 @@
   font-size: 14px;
 }
 
-#fruitbox>div>button{
+#fruitBox>div>button{
   height :20px;
   width : 100px;
   color : #fff;
@@ -24,7 +24,7 @@
   border:none;
   /* border : 1px solid #aaa; */
 }
-#fruitbox>div>ul{
+#fruitBox>div>ul{
   position : absolute;
   top : 20px;
   right : 0;
@@ -35,10 +35,10 @@
 }
 
 
-#fruitbox>div>ul>li>svg{
+#fruitBox>div>ul>li>svg{
   font-size: 12px;
 }
-#fruitbox>div>ul>li{
+#fruitBox>div>ul>li{
   padding : 5px;
   text-align: center;
   border-bottom : 1px dotted #666;
@@ -48,21 +48,21 @@
   width : 100%;
   box-sizing: border-box;
 }
-#fruitbox>div>ul>li:first-child{
+#fruitBox>div>ul>li:first-child{
   border-top:none;
 }
-#fruitbox>div>ul>li:last-child{
+#fruitBox>div>ul>li:last-child{
   border:none;
 }
 
-#fruitbox>figure{
+#fruitBox>figure{
   position : relative;
 }
-#fruitbox>figure>img{
+#fruitBox>figure>img{
   width:100%;
   margin-bottom : 20px;
 }
-#fruitbox>figure>span{
+#fruitBox>figure>span{
   position : absolute;
   bottom: 18%;
   right : 3%;
@@ -73,22 +73,22 @@
   text-align: center;
   color : #fff;
 }
-#fruitbox figcaption>dl{
+#fruitBox figcaption>dl{
   text-align : center;
   margin-bottom : 20px;
 }
 
-#fruitbox figcaption>dl>dt{
+#fruitBox figcaption>dl>dt{
   font-weight: bold;
   margin-bottom : 10px;
 }
 
-#fruitbox figcaption>dl>dd{
+#fruitBox figcaption>dl>dd{
   color : #777;
   font-size: 14px;
   margin-bottom : 10px;
 }
 
-#fruitbox figcaption>dl>dd:last-child{
+#fruitBox figcaption>dl>dd:last-child{
   color : #000;
 }

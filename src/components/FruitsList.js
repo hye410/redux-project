@@ -11,8 +11,6 @@ function FruitsList({productList}){
   let dispatch = useDispatch();
   const { ListSlice } = useSelector(state=>state);
 
-  // console.log(ListSlice.selectedIds)
-
   const[productName,setProductName] = useState('');
   const[sort,setSort] = useState('date');
   const[toggle,setToggle] = useState(false);
@@ -31,7 +29,7 @@ function FruitsList({productList}){
   productName = {productName}
   searchChange = {(value)=>setProductName(value)}
   />
-  <div id="fruitbox">
+  <div id="fruitBox">
     <div>
       <p>총 {searchList.length}개</p>
       <button type="button" onClick={()=>setToggle(!toggle)}>

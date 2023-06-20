@@ -1,7 +1,7 @@
 import { BiSearch } from "react-icons/bi";
 import './css/Search.css';
 
-function Search({searchChange,productName,sortChange,sort}){
+function Search({searchChange,productName}){
 
   
   return(
